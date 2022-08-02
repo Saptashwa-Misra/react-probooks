@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.Book_List {
+  margin: 5%;
+}
+
+.Book_Name {
+  font-weight: 900;
+}
+
+.Probook_Heading{
+  background-color: green;
+  color: white;
+  padding: 0.2%;
+}
+
+h1{
+  font-weight: 500;
+  text-align: center;
+}
+
+.Search_bar {
+  width: 100%;
+  font-size: 50px;
+  margin: 1%;
+  display: flex;
+  box-shadow: 2px 2px 4px 2px grey;
+}
+
+.Search_bar:hover{
+  box-shadow: 4px 4px 8px 4px green;
+}
+
+.Search{
+  font-size: 25px;
+  border: 0px;
+  width: 95%;
+}
+
+.LinktoHome{
+  width: 5%;
+  text-decoration: none;
+  padding-bottom: 1%;
+}
+
+.Search_Display_Books{
+  margin-top: 2%;
+  padding: 4%;
+  box-shadow: 2px 2px 4px 2px gray;
+}
+
+.NoOfBooksFound{
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.SoManyBooks{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Book_List{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+img{
+  height: 250px;
+  width: 200px;
+}
+
+.Book_Name{
+  padding-top: 25px;
+  font-size: 20px;
+  text-align: justify;
+  word-wrap: break-all;
+  width: 200px
+}
+
+.Search_Link{
+  border-radius: 50%;
+  position: fixed;
+  height:50px;
+  width: 50px;
+  background-color: green;
+  color: white;
+  font-size: 45px;
+  justify-content: center;
+  text-align: center;
+  right: 3vh;
+  bottom: 3vh;
+}
+
+.LinktoSearch{
+  color: white;
+  text-decoration: none;
+}
+
+.Search_Link:hover{
+  background-color: darkblue;
+  color: black;
+  box-shadow: 4px 4px 8px 4px green;
+}
+
+.Home_div{
+  display: flex;
+  flex-direction: column;
+}
+
+#SMB_home{
+  border-top: 1px solid lightgrey;
+}
+
+.Move_to{
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 20px;
+  height:50px;
+  width: 50px;
+  top:32vh;
+  right:-2vh;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+}
+
+select{
+  appearance: none;
+}
+
+option{
+  font-size: 17px;
+}
