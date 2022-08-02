@@ -53,7 +53,7 @@ class App extends React.Component {
       <this.Get_Books/>
       <BrowserRouter>
         <Routes>
-          <Route path="react-probooks/" element={<Home/>}/>
+          <Route path="react-probooks" element={<Home/>}/>
           <Route path="react-probooks/search" element={<Search/>}/>
           <Route path="*" element={<h1>No Page Found</h1>}/>
         </Routes>

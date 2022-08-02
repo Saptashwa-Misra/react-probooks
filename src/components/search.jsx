@@ -80,7 +80,7 @@ class Search extends React.Component {
     {
         return<>
             <div className="Search_bar">
-                <Link to = "react-probooks/" className="LinktoHome">&#x2190;</Link>
+                <Link to = "/react-probooks" className="LinktoHome">&#x2190;</Link>
                 <input type="text" className="Search" id="Search" placeholder="Search by title or author...." onChange={this.search_book} />
             </div>
             <div className="Search_Display_Books">

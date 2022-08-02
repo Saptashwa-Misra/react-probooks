@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import '../App.css'
 import books from '../books.json'
 
@@ -73,7 +73,7 @@ class Home extends React.Component {
                 <h2>Dislike</h2>
                 <div className="SoManyBooks" id="SMB_home">{this.Display_books("Dislike")}</div>
             </div>
-            <div className="Search_Link"> <Link to='react-probooks/search' className="LinktoSearch">  +  </Link></div>
+            <div className="Search_Link"> <Link to='/react-probooks/search' className="LinktoSearch">  +  </Link><Outlet/></div>
         </>
     }
 }
